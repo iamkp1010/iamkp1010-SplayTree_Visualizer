@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Splay Tree Visualizer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href='css/splay.css' rel="stylesheet">
+    <link href='css/diagram.css' rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div id="top-options" class="row">
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 column">
+                <form id="add-form" class="form-group">
+                    <h4>Add</h4>
+                    <div>
+                        <label for="keyText">Key (number)</label>
+                        <input id="keyText" name="keyText" class="form-control" type="text">
+                    </div>
+                    <button id="add-submit" type="submit" class="btn btn-default">Add</button>
+                </form>
+            </div>
+
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 column">
+                <form id="remove-form" class="form-group">
+                    <h4>Remove</h4>
+                    <label for="removeText">Key (number)</label>
+                    <input id="removeText" name="removeText" class="form-control" type="text">
+                    <button id="remove-submit" type="submit" class="btn btn-default">Remove</button>
+                </form>
+            </div>
+
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 column">
+                <form id="search-form" class="form-group">
+                    <h4>Find</h4>
+                    <label for="searchText">Key (number)</label>
+                    <input id="searchText" name="searchText" class="form-control" type="text">
+                    <button id="search-submit" type="submit" class="btn btn-default">Find</button>
+                </form>
+            </div>
+
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 column">
+                <button id="max-button" class="btn btn-default center-block">Max</button>
+                <br>
+                <button id="min-button" class="btn btn-default center-block">Min</button>
+            </div>
+        </div>
+
+        <br>
+        <div id="tree-display"></div>
+
+    </div>
+
+    </div>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="js/splay.js"></script>
+</body>
+
+</html>

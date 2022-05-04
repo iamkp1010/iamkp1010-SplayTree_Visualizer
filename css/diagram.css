@@ -1,0 +1,37 @@
+.node circle {
+    fill: #fff !important;
+    stroke: rgb(32, 4, 91);
+    stroke-width: 3px;
+}
+  
+.node text { 
+  font-size: 10px; 
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.selected {
+  fill: #0000FF;
+}
+
+.max circle{
+  fill: #26c6ea !important;
+  stroke: black;
+}
+
+.min circle{
+  fill: rgb(223, 70, 70) !important;
+  stroke: black;
+}
+
+.max, .min {
+  transition: all 0.1s ease-in;	
+}
+.max text, .min text, .selected text {
+  font-size: 20px;
+}
+  
