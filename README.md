@@ -22,6 +22,7 @@ Splay Tree Visualizer for ADS innovative assignment
 ## About-The-Project
 
 The visualization is done with standard HTML, CSS, and JavaScript along with the Bootstrap CSS framework and D3.js for visualizer.
+- Video link https://drive.google.com/drive/u/1/folders/1MF1g3e7sAwsv366BPogE97xZi8DloCEj
 
 
 ## Features
